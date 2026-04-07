@@ -7,7 +7,7 @@ if 1 <= day <= 7:
     answer = names[day - 1]
 
     if day <=5:
-        print(f"{answer}: 8:00 -Начало смены")
+        print(f"{answer}: 8:00 - Начало смены")
     else: 
         print(f"{answer}: Отдых")
 else:
