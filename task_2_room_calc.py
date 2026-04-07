@@ -40,4 +40,3 @@ print(f"Площадь стен:        {walls_area} м²")
 print(f"Объём помещения:     {volume} м³")
 print("-" * 50)
 print(f"Стоимость покраски стен:   {painting_cost} руб.")
-
