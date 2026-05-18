@@ -38,8 +38,8 @@ for rel in first_wall.IsDefinedBy:
                     found = True
                     break
             if not found:
-                # Свойства нет - добавляем (требуется создание IfcPropertySingleValue)
-                print("Свойство IsExternal отсутствует. Для добавления требуется создание нового IfcPropertySingleValue")    
+                # Свойство не найдено
+                print("Свойство IsExternal не найдено")    
             break
 
 # Сохраняем измененную модель в новый файл
